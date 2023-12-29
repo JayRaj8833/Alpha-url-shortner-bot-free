@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am "Add Your Website Name" , Bulk Link Converter. I Can Convert Links Directly From Your domain.com Account,
+I Am "Shareus Demo Bot" , Bulk Link Converter. I Can Convert Links Directly From Your shareus.io Account,
     
-1. Go To 👉 https://domain.com/member/tools/api  
+1. Go To 👉 https://shareus.io/member/tools/api  
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
@@ -23,9 +23,9 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 '''
 
 HELP_MESSAGE = '''**Hello, {}
-I Am "Add Your Website Name", Bulk Link Converter Bot. I Can Convert Links Directly From Your domain.com Account,**
+I Am "Shareus Demo Bot", Bulk Link Converter Bot. I Can Convert Links Directly From Your shareus.io Account,**
     
-1. Go To 👉 https://domain.com/member/tools/api  
+1. Go To 👉 https://shareus.io/member/tools/api  
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
@@ -38,10 +38,10 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of lnthamizha.com** than **contact** at 👉 tg_username (all **shortners support** available.)**
+If You Want Any **Other Shortner** Link Converter Bot Instead Of shareus.io** than **contact** at 👉 @JayRaj8833 (all **shortners support** available.)**
 '''
 
-ABOUT_TEXT = '''**Hey! My name is 'your url shortener bot name'. 'I am add your url shortener bot domain.com .**'
+ABOUT_TEXT = '''**Hey! My name is 'Shareus Demo Bot'. 'I am add your url shortener bot shareus.io .**'
 
 **⚡Features⚡**
 
@@ -97,7 +97,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://domain.com/member/tools/api')
+        InlineKeyboardButton('Get Api', url=f'https://shareus.io/member/tools/api')
     ]
 ])
 
@@ -111,7 +111,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://domain.com/)
+- Website: [{base_site}](https://shareus.io/)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -132,7 +132,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://domain.com)
+Get API From [{base_site}](https://shareus.io)
 
 Current {base_site} API: `{shortener_api}`"""
 
